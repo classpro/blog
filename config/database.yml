@@ -1,0 +1,17 @@
+default: &default
+  adapter: mysql2
+  pool: 5
+  timeout: 5000
+  username: root
+
+development:
+  <<: *default
+  database: classpro_demo_development
+  host: localhost
+  password: classpro2930
+
+production:
+  <<: *default
+  database: classpro_demo_production
+  host: 35.200.137.9
+  password: deepak@2930
