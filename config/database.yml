@@ -13,5 +13,5 @@ development:
 production:
   <<: *default
   database: classpro_demo_production
-  host: 35.200.137.9
-  password: deepak@2930
+  host: localhost
+  password: classpro@2930
